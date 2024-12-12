@@ -1,7 +1,7 @@
 import drumSenseImage from './images/drumsense.png';
 import pulseLinkImage from './images/pulselink.png';
 import lumiSphereImage from './images/lumisphere2.jpg';
-import redactImage from './images/redact.JPG';
+import redactImage from './images/redact.jpg';
 import rateFlixImage from './images/rateflix.png';
 import portfolioImage from './images/portfolio2.png';
 
