@@ -1,6 +1,6 @@
 import redactImage from './images/redact.jpg';
 import rateFlixImage from './images/rateflix.png';
-import portfolioImage from './images/portfolio2.png';
+import tamaLife from './images/tamalife.png';
 
 import lumiSphereImage from './images/lumisphere2.jpg';
 import lumiSphereVideo from './images/interaction-video1.mp4';
@@ -45,11 +45,11 @@ export const projects = [
     github: "https://github.com/Aarij00/RateFlix",
   },
   {
-    cover: portfolioImage,
-    title: "Personal Website",
-    description: "Built with React, Tailwind, and Vite, featuring a responsive design and smooth animations. Deployed on Render with continuous integration from GitHub.",
-    tech: ["React", "Tailwind", "Vite", "JavaScript", "Render"],
-    github: "https://github.com/Aarij00/portfolio",
+    cover: tamaLife,
+    title: "TamaLife",
+    description: "TamaLife is a modern take on the classic Tamagotchi virtual pet, combining mobile app technology, machine learning, and IoT hardware to create an interactive pet care experience. Built during CalgaryHacks 2025.",
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "Express",  "JWT", "MongoDB", "TensorFlow", "Arduino"],
+    github: "https://github.com/Aarij00/TamaLife",
   },
   {
     cover: lumiSphereImage,
@@ -295,11 +295,11 @@ void loop() {
   },
   {
     cover: drumSenseImage,
-    title: "DrumSense",
+    title: "AirBeats",
     description: "Portable, 3D printed drumsticks designed for convenience, allowing you to play drums anywhere, whether at home or on the go.",
     tech: ["Arduino Leonardo", "Arduino IDE", "C", "MIDI", "3D Printing", "IMU (MPU6050)"],
     github: "https://aarij00.github.io/aarij-portfolio/project.html?project=2",
-    introduction: "DrumSense is a highly portable air drum system designed for convenience, allowing you to play or practice drums anywhere, whether at home or on the go. Using two MPU-6050 sensors, DrumSense accurately tracks stick movements and translates them into real-time drum sounds. It connects to MIDI interfaces, making it compatible with digital audio workstations, and even supports headphone use, so you can practice silently without disturbing others. DrumSense offers a seamless, immersive drumming experience, perfect for musicians looking for flexibility and mobility.", 
+    introduction: "AirBeats is a highly portable air drum system designed for convenience, allowing you to play or practice drums anywhere, whether at home or on the go. Using two MPU-6050 sensors, AirBeats accurately tracks stick movements and translates them into real-time drum sounds. It connects to MIDI interfaces, making it compatible with digital audio workstations, and even supports headphone use, so you can practice silently without disturbing others. AirBeats offers a seamless, immersive drumming experience, perfect for musicians looking for flexibility and mobility.", 
     conceptDevelopment: {
       images: [
         { src: drumSenseCD1, caption: "cd1" },
@@ -309,7 +309,7 @@ void loop() {
     },
     videoInteraction: {
       src: drumSenseVideo,
-      caption: "DrumSense in action"
+      caption: "AirBeats in action"
     },
     arduinoCode: `#include 
 #include 
@@ -463,7 +463,7 @@ void sendNoteOff(byte pitch, byte velocity) {
 }`,
     circuitSchematic: {
       src: drumSenseSchematic,
-      caption: "DrumSense circuit schematic"
+      caption: "AirBeats circuit schematic"
     },
     references: [
       "https://howtomechatronics.com/tutorials/arduino/arduino-and-mpu6050-accelerometer-and-gyroscope-tutorial/#h-mpu6050-arduino-code",
