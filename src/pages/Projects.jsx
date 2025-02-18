@@ -30,7 +30,7 @@ const Projects = () => {
       <div>
         <h2 className="text-xl md:text-3xl mb-6 flex items-center gap-2">
           <span className="text-cyan">└─</span>
-          <span className="text-lightGrey">human-computer interaction (hci)</span>
+          <span className="text-lightGrey">hardware (hci)</span>
         </h2>
         <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {hardwareProjects.map((project) => (
