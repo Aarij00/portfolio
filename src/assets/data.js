@@ -41,7 +41,7 @@ export const projects = [
     cover: rateFlixImage,
     title: "RateFlix",
     description: "A web app aggregating Netflix movie catalogs with IMDB ratings, powered by React, Clerk, GraphQL, Redis, and Express.",
-    tech: ["React", "Axios", "Clerk", "Express", "Node.js", "Redis", "Docker", "EC2", "Apollo", "GraphQL", "PostgreSQL", "Prisma"],
+    tech: ["React", "Axios", "Express", "Node.js", "Redis", "Docker", "Apollo", "GraphQL", "PostgreSQL", "Prisma", "ECS", "RDS", "CloudFront"],
     github: "https://github.com/Aarij00/RateFlix",
   },
   {
