@@ -24,9 +24,9 @@ import pulseLinkCD2 from './images/a3_cd2.jpg';
 import pulseLinkCD3 from './images/a3_cd3.jpg';
 
 export const introduction = {
-  part1: `I'm a Final Year Computer Science student at the University of Calgary, minoring in Data Science, with graduation anticipated in May 2025. I'm passionate about solving complex problems and creating impactful solutions at the intersection of software development, data engineering, and Human-Computer Interaction (HCI).`,
+  part1: `I’m a Computer Science graduate from the University of Calgary, with a minor in Data Science. My experience spans building full-stack applications, scalable back-end systems, and cloud-deployed architectures. I’ve led projects that range from real-time pipelines and REST APIs to production-ready web apps, earning recognition such as 1st place at Calgary Hacks 2025.`,
   
-  part2: `I'm currently seeking entry-level opportunities that allow me to combine my software development and data engineering skills while continuing to explore innovative approaches to HCI. Feel free to explore my portfolio and let's connect to discuss how we can create something great together!`
+  part2: `I’m now seeking opportunities in full-stack or back-end development, where I can apply my skills in designing performant APIs, optimizing databases, and building scalable, user-focused applications. Feel free to explore my portfolio, and let’s connect to discuss how we can create impactful solutions together!`
 };
 
 export const projects = [
