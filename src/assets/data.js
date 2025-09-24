@@ -46,6 +46,13 @@ export const projects = [
   },
   {
     cover: tamaLife,
+    title: "Deforestation Risk",
+    description: "An interactive dashboard that visualizes and predicts deforestation risk using geospatial datasets and deep learning models, built to support data-driven policymaking.",
+    tech: ["Python", "Streamlit", "Pandas", "Numpy", "Folium",  "Google Earth Engine", "Shapely"],
+    github: "https://github.com/Aarij00/TamaLife",
+  },
+  {
+    cover: tamaLife,
     title: "TamaLife",
     description: "TamaLife is a modern take on the classic Tamagotchi virtual pet, combining mobile app technology, machine learning, and IoT hardware to create an interactive pet care experience. Built during CalgaryHacks 2025.",
     tech: ["React Native", "Expo", "TypeScript", "Node.js", "Express",  "JWT", "MongoDB", "TensorFlow", "Arduino"],
