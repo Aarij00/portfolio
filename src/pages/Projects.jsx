@@ -28,7 +28,7 @@ const Projects = () => {
       </div>
 
       {/* Data Section */}
-      <div>
+      <div className="mb-12">
         <h2 className="text-xl md:text-3xl mb-6 flex items-center gap-2">
           <span className="text-cyan">└─</span>
           <span className="text-lightGrey">data science</span>
