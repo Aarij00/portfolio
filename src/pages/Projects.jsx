@@ -4,7 +4,8 @@ import ProjectCard from '../components/ProjectCard';
 const Projects = () => {
   // Assuming first 3 projects are software and last 3 are hardware
   const softwareProjects = projects.slice(0, 3);
-  const hardwareProjects = projects.slice(3);
+  const dataProjects = projects.slice(3, 4);
+  const hardwareProjects = projects.slice(4);
 
   return (
     <section id="projects" className="min-h-screen flex flex-col px-4 md:px-24">
@@ -26,11 +27,24 @@ const Projects = () => {
         </div>
       </div>
 
+      {/* Data Section */}
+      <div>
+        <h2 className="text-xl md:text-3xl mb-6 flex items-center gap-2">
+          <span className="text-cyan">└─</span>
+          <span className="text-lightGrey">data science</span>
+        </h2>
+        <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {dataProjects.map((project) => (
+            <ProjectCard key={project.title} project={project} />
+          ))}
+        </div>
+      </div>
+
       {/* HCI Section */}
       <div>
         <h2 className="text-xl md:text-3xl mb-6 flex items-center gap-2">
           <span className="text-cyan">└─</span>
-          <span className="text-lightGrey">hardware (hci)</span>
+          <span className="text-lightGrey">embedded (hci)</span>
         </h2>
         <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {hardwareProjects.map((project) => (
