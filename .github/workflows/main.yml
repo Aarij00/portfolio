@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check
-        run: echo "${{ secrets.EC2_USER }}"
+        run: echo "length=${{ secrets.EC2_USER }}" | wc -c
